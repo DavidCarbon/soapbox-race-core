@@ -11,6 +11,7 @@ on:
       - src/**
       - xsd/**
       - xsd-final/**
+      
 jobs:
   build:
     runs-on: ubuntu-latest
