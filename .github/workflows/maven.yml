@@ -11,13 +11,6 @@ on:
       - src/**
       - xsd/**
       - xsd-final/**
-  pull_request:
-    branches:
-      - develop
-    paths:
-      - src/**
-      - xsd/**
-      - xsd-final/**
 jobs:
   build:
     runs-on: ubuntu-latest
